@@ -29,7 +29,7 @@ CREATE OR REPLACE STAGE TRIPS
 CREATE OR REPLACE STAGE WEATHER
     URL = 's3://snowflake-workshop-lab/weather-nyc';
 
--- Create the tables
+-- Create tables
 CREATE OR REPLACE TABLE TRIPS
 (
      TRIPDURATION INTEGER
